@@ -1,0 +1,31 @@
+body {
+    font: bold;
+    font-size: 2.0rem;
+    letter-spacing: 2px;
+    padding: 0px;
+    margin: 0px;
+    color: bisque;
+    
+}
+
+.container {
+    display: grid;
+    height: 76px;
+    width: 100%;
+    grid-template-columns: 1fr 5fr 2fr;
+    align-items: center;
+    margin-top: 0;
+    background: black;
+}
+
+.container > .right-wrapper > .buttons  button{
+    height: 55px;
+	width: 115px;
+	font-size: .5em;
+	letter-spacing: 2px;
+	background-color: blue;
+	color: bisque;
+	text-align: center;
+	border-radius: 5px;
+
+}
