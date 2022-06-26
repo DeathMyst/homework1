@@ -6,7 +6,7 @@ body {
     margin: 0px;
     color: bisque;
     width: 100%;
-    
+    background-color: black;
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
     grid-template-columns: 1fr 5fr 2fr;
     align-items: center;
     margin-top: 0;
-    background: black;
+    background: darkblue;
 }
 
 .container > .center-wrapper > .nav-links {
