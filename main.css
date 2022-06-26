@@ -25,8 +25,18 @@ body {
     text-decoration: none;
     margin-left: 30px;
     margin-right: 30px;    
-    align-items: center;
-    color: skyblue;
+    align-items: center;    
+}
+
+.container > .center-wrapper > .nav-links a {
+    color: bisque;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.container > .center-wrapper > .nav-links a:hover {
+    color: aqua;
+    text-decoration: underline;
 }
 
 .container > .right-wrapper > .buttons {
@@ -37,11 +47,26 @@ body {
 
 .container > .right-wrapper > .buttons  button {
     height: 55px;
-	width: 115px;
+	width: 120px;
 	font-size: .5em;
+    font-weight: bold;
 	letter-spacing: 2px;
-	background-color: cadetblue;
-	color: bisque;
+	background-color: aqua;
+	color: darkblue;
+	text-align: center;
+	border-radius: 2px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container > .right-wrapper > .buttons  button:hover {
+    height: 55px;
+	width: 120px;
+	font-size: .5em;
+    font-weight: bold;
+	letter-spacing: 2px;
+	background-color: beige;
+	color: darkblue;
 	text-align: center;
 	border-radius: 2px;
     justify-content: space-around;
