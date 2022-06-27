@@ -43,6 +43,7 @@ body {
 	display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .container > .right-wrapper > .buttons  button {
@@ -71,4 +72,11 @@ body {
 	border-radius: 2px;
     justify-content: space-around;
     align-items: center;
+}
+
+.main-body-heading {
+    font-size: 1.5rem;
+    font-family: fantasy;
+    padding: 25px 75px;
+
 }
