@@ -48,7 +48,7 @@ body {
 .container > .right-wrapper > .buttons  button {
     height: 55px;
 	width: 120px;
-	font-size: .5em;
+	font-size: .4em;
     font-weight: bold;
 	letter-spacing: 2px;
 	background-color: aqua;
